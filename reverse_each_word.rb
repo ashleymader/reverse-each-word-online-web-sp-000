@@ -1,7 +1,7 @@
 def reverse_each_word(array)
   array = "Hello there, and how are you?"
-  array.split
-  array.reverse
+  array.each do |word|
+   
 end
   
   
